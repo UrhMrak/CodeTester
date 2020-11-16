@@ -14,6 +14,8 @@ body, html {
     padding-top: 10px;
     background-color: #772f1a;
 background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    box-shadow: 0px 0px 3px 0px black;
+    margin-bottom: 3px;
 
     
 }
