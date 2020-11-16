@@ -1,0 +1,154 @@
+body, html {
+    
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family: helvetica, sans-serif;
+    
+}
+
+#navbar {
+    
+    height: 40px;
+/*    background-color: #C0C0C0;*/
+    padding-top: 10px;
+    background-color: #772f1a;
+background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+
+    
+}
+
+h1 {
+    
+    height: 30px;
+    width: 200px;
+    margin: 0px;
+    text-align: center;
+    float: left;
+    font-size: 150%;
+}
+
+
+.toggleButton {
+    
+    float: left;
+    padding: 6px;
+    font-size: 110%;
+    transition: 0.3s;
+    opacity: 0.4;
+    font-weight: 700;
+    margin-left: 5px;
+    
+}
+
+.toggleButton:hover {
+    
+    cursor: pointer;
+}
+
+.highlightedButton {
+
+    opacity: 1;
+    
+}
+
+.buttonContainer {
+    
+    
+    width: 300px;
+    height: 30px;
+    margin: 0px auto;
+    
+}
+
+#container {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#html {
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+
+
+.active {
+    
+    opacity: 1;
+    
+}
+
+
+textarea {
+    
+    resize: none;
+    border-top: none;
+    border-color: grey;
+    
+}
+
+
+.panel {
+    
+    float: left;
+    width: 50%;
+    border-left: none;
+    
+}
+
+iframe {
+    
+    border: none;
+    
+}
+
+
+
+.hidden {
+    
+    display: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
